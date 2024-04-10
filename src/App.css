@@ -1,0 +1,14 @@
+body {
+    background-color: #11192e !important;
+}
+
+.mantine-Notification-root {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    width: 300px;
+}
+
+[data-mantine-color-scheme=light] .m-b23fa0ef{
+    --_table-border-color: #4E4E4E !important;
+}
