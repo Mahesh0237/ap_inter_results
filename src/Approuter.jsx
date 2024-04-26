@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Loader, Stack, Text } from '@mantine/core';
 const Interresultspage = lazy(() => import('./pages/Interresultspage'))
-function Approuter() {
+function Approuter({captureScreenshot}) {
     return (
         <BrowserRouter>
             <Suspense fallback={
@@ -12,7 +12,7 @@ function Approuter() {
                 </Stack>
             }>
                 <Routes>
-                    <Route path='/' element={<Interresultspage />} />
+                    <Route path='/' element={<Interresultspage captureScreenshot={captureScreenshot} />} />
                 </Routes>
             </Suspense>
         </BrowserRouter>

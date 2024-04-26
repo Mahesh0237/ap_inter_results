@@ -12,3 +12,15 @@ body {
 [data-mantine-color-scheme=light] .m-b23fa0ef{
     --_table-border-color: #4E4E4E !important;
 }
+.textinput .m-8fb7ebe7{
+    border-radius: 15px 0px 0px 15px !important;
+}
+.textinput .m-6c018570{
+    --_input-placeholder-color:#B9201E !important;
+    font-weight: 700 !important;
+}
+.textinput .m-8fb7ebe7{
+color: #B9201E !important;
+font-weight: 700 !important;
+}
+
